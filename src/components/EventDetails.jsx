@@ -1,28 +1,5 @@
-import { FiCalendar, FiClock, FiMapPin } from 'react-icons/fi'
+﻿import { FiCalendar, FiClock, FiMapPin } from 'react-icons/fi'
 import { invitationData as data } from '../data/invitationData'
-import { Reveal, SectionTitle } from './common/Reveal'
-
-function EventCard({ event, index }) {
-  return (
-    <Reveal className="detail-card">
-      <span className="card-number">0{index + 1}</span>
-      <div className="detail-icon">{index ? <FiClock /> : <FiCalendar />}</div>
-      <h3>{event.title}</h3>
-      <p><FiCalendar /> {event.date}</p>
-      <p><FiClock /> {event.time}</p>
-      <p><FiMapPin /> {event.location}</p>
-      <small>{event.address}</small>
-    </Reveal>
-  )
-}
-
-export function EventDetails() {
-  return (
-    <section className="section details">
-      <Reveal><SectionTitle eyebrow="Guarde a data">Onde tudo acontecerá</SectionTitle></Reveal>
-      <div className="detail-grid">
-        {data.events.map((event, index) => <EventCard event={event} index={index} key={event.title} />)}
-      </div>
-    </section>
-  )
-}
+import { Reveal } from './common/Reveal'
+function EventCard({ event }) { return <Reveal className="detail-card"><div className="detail-icon"><FiClock /></div><h3>{event.title}</h3><p><FiClock /> {event.time.replace(':', 'h')}</p><p><FiMapPin /><span>{event.location}</span></p><a className="outline-btn card-location-btn" href={event.mapsUrl} target="_blank" rel="noreferrer"><FiMapPin /> Ver localização</a></Reveal> }
+export function EventDetails() { return <section className="section details"><Reveal><div className="simple-heading"><h2>Informações do casamento</h2></div><div className="event-summary"><div><FiCalendar /><span>Data<strong>{data.displayDate}</strong></span></div><div><FiMapPin /><span>Local<strong>Maputo, Moçambique</strong></span></div></div></Reveal><div className="detail-grid">{data.events.map((event) => <EventCard event={event} key={event.title} />)}</div></section> }

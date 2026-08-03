@@ -1,30 +1,7 @@
+﻿import { motion } from 'framer-motion'
 import { FiArrowDown } from 'react-icons/fi'
 import { invitationData as data } from '../data/invitationData'
-
 export function HeroSection() {
-  const { couple, displayDate, images, location } = data
-
-  return (
-    <section
-      className="hero"
-      style={{
-        '--hero-image': `url(${images.hero.src})`,
-        '--hero-position': images.hero.position,
-        '--hero-mobile-position': images.hero.mobilePosition,
-      }}
-      role="img"
-      aria-label={images.hero.alt}
-    >
-      <div className="hero-content">
-        <p>O casamento de</p>
-        <h1>{couple.bride} <em>&</em> {couple.groom}</h1>
-        <div className="hero-line" />
-        <p className="hero-date">{displayDate} • {location.city}</p>
-      </div>
-      <a href="#story" className="scroll-cue" aria-label="Continuar">
-        <span>Deslize para descobrir</span>
-        <FiArrowDown />
-      </a>
-    </section>
-  )
+  const { couple, displayDate, images } = data
+  return <section className="hero cinematic-hero" style={{ '--hero-image': `url(${images.hero.src})`, '--hero-position': images.hero.position, '--hero-mobile-position': images.hero.mobilePosition }} role="img" aria-label={images.hero.alt}><motion.div className="hero-content" initial={{ opacity: 0, y: 18 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1.1, ease: [0.22, 1, 0.36, 1] }}><div className="hero-monogram">{couple.monogram}</div><h1>{couple.landingName}</h1><div className="hero-line" /><p className="hero-date">{displayDate}</p><p className="hero-intro">Uma celebração de amor aguarda por si</p></motion.div><a href="#countdown" className="scroll-cue" aria-label="Deslize para descobrir"><span>Deslize para descobrir</span><FiArrowDown /></a></section>
 }

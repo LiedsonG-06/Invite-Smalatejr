@@ -1,4 +1,4 @@
-import weddingMusic from '../assets/audio/dom_bruno-mars-when-i-was-your-man.mp3'
+﻿import weddingMusic from '../assets/audio/dom_bruno-mars-when-i-was-your-man.mp3'
 import coupleHero from '../assets/images/couple-hero.png'
 
 export const invitationData = {
@@ -6,11 +6,12 @@ export const invitationData = {
     bride: 'Cheila',
     groom: 'Sidónio',
     displayName: 'Cheila & Sidónio',
+    landingName: 'Che Jr',
     monogram: 'C · S',
   },
-  eventDate: '2026-12-12T15:00:00+02:00',
+  eventDate: '2026-12-12T10:00:00+02:00',
   displayDate: '12 de Dezembro de 2026',
-  intro: 'Entre encontros, risos e sonhos partilhados, construímos uma história que agora ganha um novo capítulo. Queremos vivê-lo rodeados por quem faz parte da nossa caminhada.',
+  invitationMessage: 'Com a bênção de Deus e dos seus pais, Cheila e Sidónio têm a honra de convidá-lo(a) para celebrar o seu casamento. Com imensa alegria, gostariam de partilhar este momento único e inesquecível consigo. A sua presença será uma verdadeira bênção e fará deste dia uma memória ainda mais especial.',
   music: {
     src: weddingMusic,
     autoplayAfterOpening: true,
@@ -41,7 +42,7 @@ export const invitationData = {
       },
     ],
   },
-  whatsapp: '258840000000',
+  whatsapp: '258844387410',
   mapsUrl: 'https://maps.google.com/?q=Maputo+Mozambique',
   rsvpDeadline: '20 de Novembro de 2026',
   location: {
@@ -51,8 +52,8 @@ export const invitationData = {
     description: 'Um cenário verde e sereno junto ao Índico, escolhido para partilharmos convosco cada instante deste dia.',
   },
   events: [
-    { title: 'Cerimónia', date: '12 de Dezembro de 2026', time: '15h00', location: 'Capela de Santo António', address: 'Av. Friedrich Engels, Maputo' },
-    { title: 'Recepção', date: '12 de Dezembro de 2026', time: '18h00', location: 'Jardins do Índico', address: 'Avenida da Marginal, Maputo' },
+    { title: 'Cerimónia Religiosa', time: '10:00', location: 'Paróquia São Pedro e São Paulo', mapsUrl: 'https://maps.app.goo.gl/hYMaHTMVBmyPo2BQ8' },
+    { title: 'Recepção', time: '13:00', location: 'Salão de Eventos Roseiral', mapsUrl: 'https://maps.google.com/?q=Salão+de+Eventos+Roseiral+Maputo' },
   ],
   programme: [
     { time: '15h00', title: 'Recepção dos convidados', description: 'Sejam bem-vindos ao início da nossa celebração.' },
@@ -76,8 +77,8 @@ export const invitationData = {
   guestMessage: 'A nossa história torna-se ainda mais especial com a presença das pessoas que amamos. Será uma alegria partilhar este momento consigo.',
   finalMessage: 'Com carinho, aguardamos por si neste dia tão especial.',
   contacts: [
-    { name: 'Cheila', role: 'Noiva', phone: '+258 84 000 0000', whatsapp: '258840000000' },
-    { name: 'Sidónio', role: 'Noivo', phone: '+258 85 000 0000', whatsapp: '258850000000' },
-    { name: 'Dulce', role: 'Organização', phone: '+258 86 000 0000', whatsapp: '258860000000' },
+    { name: 'Cheila', role: 'Noiva', phone: '+258 84 438 7410', whatsapp: '258844387410' },
+    { name: 'Sidónio', role: 'Noivo', phone: '+258 87 792 0116', whatsapp: '258877920116' },
+    { name: 'Dulce', role: 'Organização', phone: '+258 87 970 0463', whatsapp: '258879700463' },
   ],
 }

@@ -1,8 +1,8 @@
-import { useEffect, useState } from 'react'
+﻿import { useEffect, useState } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
 import { FiChevronLeft, FiChevronRight, FiX } from 'react-icons/fi'
 import { invitationData as data } from '../data/invitationData'
-import { Reveal, SectionTitle } from './common/Reveal'
+import { Reveal } from './common/Reveal'
 
 export function GallerySection() {
   const { gallery, hero } = data.images
@@ -23,7 +23,7 @@ export function GallerySection() {
 
   return (
     <section className="section memories">
-      <Reveal><SectionTitle eyebrow="Memórias">A nossa história em imagens</SectionTitle></Reveal>
+      <Reveal><div className="simple-heading"><h2>Galeria</h2></div></Reveal>
       <div className={`gallery ${gallery.length === 1 ? 'gallery-single' : ''}`}>
         {gallery.map((image, index) => (
           <button
