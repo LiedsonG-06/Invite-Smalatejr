@@ -6,7 +6,6 @@ import { CountdownSection } from './components/CountdownSection'
 import { DressCodeSection } from './components/DressCodeSection'
 import { EventDetails } from './components/EventDetails'
 import { Footer } from './components/Footer'
-import { GallerySection } from './components/GallerySection'
 import { HeroSection } from './components/HeroSection'
 import { MusicButton } from './components/MusicButton'
 import { RSVPSection } from './components/RSVPSection'
@@ -16,5 +15,5 @@ import { GoodGuestGuide } from './components/GoodGuestGuide'
 
 export default function App() {
   const audio = useAudioPlayer(data.music)
-  return <><audio {...audio.audioProps} /><motion.main initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.7 }}>{!audio.error && <MusicButton playing={audio.playing} onToggle={audio.toggle} />}<HeroSection /><CountdownSection /><InvitationMessage /><EventDetails /><DressCodeSection /><GiftSection /><RSVPSection /><GoodGuestGuide /><GallerySection /><ContactSection /><Footer /></motion.main></>
+  return <><audio {...audio.audioProps} /><motion.main initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.7 }}>{!audio.error && <MusicButton playing={audio.playing} onToggle={audio.toggle} />}<HeroSection /><CountdownSection /><InvitationMessage /><EventDetails /><DressCodeSection /><GiftSection /><RSVPSection /><GoodGuestGuide /><ContactSection /><Footer /></motion.main></>
 }

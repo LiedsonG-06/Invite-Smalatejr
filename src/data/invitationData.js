@@ -6,7 +6,7 @@ export const invitationData = {
     bride: 'Cheila',
     groom: 'Sidónio',
     displayName: 'Cheila & Sidónio',
-    landingName: 'Che Jr',
+    landingName: 'CheiSjr',
     monogram: 'C · S',
   },
   eventDate: '2026-12-12T10:00:00+02:00',
@@ -53,7 +53,7 @@ export const invitationData = {
   },
   events: [
     { title: 'Cerimónia Religiosa', time: '10:00', location: 'Paróquia São Pedro e São Paulo', mapsUrl: 'https://maps.app.goo.gl/hYMaHTMVBmyPo2BQ8' },
-    { title: 'Recepção', time: '13:00', location: 'Salão de Eventos Roseiral', mapsUrl: 'https://maps.google.com/?q=Salão+de+Eventos+Roseiral+Maputo' },
+    { title: 'Cerimónia Civil & Copo de Água', time: '13:30', location: 'Salão de Eventos Roseiral', mapsUrl: 'https://maps.google.com/?q=Salão+de+Eventos+Roseiral+Maputo' },
   ],
   programme: [
     { time: '15h00', title: 'Recepção dos convidados', description: 'Sejam bem-vindos ao início da nossa celebração.' },
