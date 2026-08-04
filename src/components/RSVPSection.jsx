@@ -3,6 +3,7 @@ import { invitationData as data } from '../data/invitationData'
 import { Reveal } from './common/Reveal'
 
 const RSVP_ENDPOINT = import.meta.env.VITE_RSVP_ENDPOINT;
+console.log("RSVP_ENDPOINT =", RSVP_ENDPOINT);
 const initialForm = { nomeCompleto: '', telefone: '', confirmacao: '', numeroAcompanhantes: 0, nomesAcompanhantes: '', mensagem: '' }
 export function RSVPSection() {
   const [form, setForm] = useState(initialForm); const [status, setStatus] = useState({ type: '', message: '' }); const [sending, setSending] = useState(false); const submitting = useRef(false)
