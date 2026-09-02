@@ -53,7 +53,7 @@ export const invitationData = {
   },
   events: [
     { title: 'Cerimónia Religiosa', time: '10:00', location: 'Paróquia São Pedro e São Paulo', mapsUrl: 'https://maps.app.goo.gl/hYMaHTMVBmyPo2BQ8' },
-    { title: 'Cerimónia Civil & Copo de Água', time: '13:30', location: 'Salão de Eventos Roseiral', mapsUrl: 'https://maps.google.com/?q=Salão+de+Eventos+Roseiral+Maputo' },
+    { title: 'Cerimónia Civil & Copo de Água', time: '13:30', location: 'Salão de Eventos Roseiral', mapsUrl: 'https://maps.app.goo.gl/JeX3tZGS9HGw1Rqv8' },
   ],
   programme: [
     { time: '15h00', title: 'Recepção dos convidados', description: 'Sejam bem-vindos ao início da nossa celebração.' },
