@@ -11,7 +11,6 @@ export const invitationData = {
   },
   eventDate: '2026-12-12T10:00:00+02:00',
   displayDate: '12 de Dezembro de 2026',
-  invitationMessage: 'Com a bênção de Deus e dos seus pais, Cheila e Sidónio têm a honra de convidá-lo(a) para celebrar o seu casamento. Com imensa alegria, gostariam de partilhar este momento único e inesquecível consigo. A sua presença será uma verdadeira bênção e fará deste dia uma memória ainda mais especial.',
   music: {
     src: weddingMusic,
     autoplayAfterOpening: true,
