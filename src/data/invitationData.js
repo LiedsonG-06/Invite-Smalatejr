@@ -51,16 +51,16 @@ export const invitationData = {
     description: 'Um cenário verde e sereno junto ao Índico, escolhido para partilharmos convosco cada instante deste dia.',
   },
   events: [
-    { title: 'Cerimónia Religiosa', time: '10:00', location: 'Paróquia São Pedro e São Paulo', mapsUrl: 'https://maps.app.goo.gl/hYMaHTMVBmyPo2BQ8' },
-    { title: 'Cerimónia Civil & Copo de Água', time: '13:30', location: 'Salão de Eventos Roseiral', mapsUrl: 'https://maps.app.goo.gl/JeX3tZGS9HGw1Rqv8' },
+    { title: 'Cerimónia Religiosa', time: '10:30', location: 'Paróquia São Pedro e São Paulo', mapsUrl: 'https://maps.app.goo.gl/hYMaHTMVBmyPo2BQ8' },
+    { title: 'Cerimónia Civil & Copo de Água', time: '14:00', location: 'Salão de Eventos Roseiral', mapsUrl: 'https://maps.app.goo.gl/JeX3tZGS9HGw1Rqv8' },
   ],
-  programme: [
-    { time: '15h00', title: 'Recepção dos convidados', description: 'Sejam bem-vindos ao início da nossa celebração.' },
-    { time: '16h00', title: 'Cerimónia', description: 'O momento em que dizemos sim para sempre.' },
-    { time: '18h00', title: 'Cocktail & fotografias', description: 'Brindes, abraços e memórias para guardar.' },
-    { time: '19h30', title: 'Jantar', description: 'Uma mesa preparada com carinho para todos.' },
-    { time: '21h30', title: 'Festa', description: 'Música, dança e alegria até ao último instante.' },
-  ],
+  //programme: [
+    //{ time: '15h00', title: 'Recepção dos convidados', description: 'Sejam bem-vindos ao início da nossa celebração.' },
+    //{ time: '16h00', title: 'Cerimónia', description: 'O momento em que dizemos sim para sempre.' },
+    //{ time: '18h00', title: 'Cocktail & fotografias', description: 'Brindes, abraços e memórias para guardar.' },
+    //{ time: '19h30', title: 'Jantar', description: 'Uma mesa preparada com carinho para todos.' },
+    //{ time: '21h30', title: 'Festa', description: 'Música, dança e alegria até ao último instante.' },
+  //],
   dressCode: {
     title: 'Formal & sofisticado',
     description: 'Sugerimos tons naturais e elegantes que complementem o ambiente da nossa celebração.',
