@@ -77,8 +77,6 @@ export const invitationData = {
   guestMessage: 'A nossa história torna-se ainda mais especial com a presença das pessoas que amamos. Será uma alegria partilhar este momento consigo.',
   finalMessage: 'Com carinho, aguardamos por si neste dia tão especial.',
   contacts: [
-    { name: 'Cheila', role: 'Noiva', phone: '+258 84 438 7410', whatsapp: '258844387410' },
-    { name: 'Sidónio', role: 'Noivo', phone: '+258 87 792 0116', whatsapp: '258877920116' },
-    { name: 'Dulce', role: 'Organização', phone: '+258 87 970 0463', whatsapp: '258879700463' },
+      { name: 'Dulce', role: 'Organização', phone: '+258 87 970 0463', whatsapp: '258824829016' },
   ],
 }
