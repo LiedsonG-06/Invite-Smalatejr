@@ -7,11 +7,10 @@ export const invitationData = {
     groom: 'Sidónio',
     displayName: 'Cheila & Sidónio',
     landingName: 'CheiSjr',
-    monogram: 'C · S',
+    monogram: 'S · C',
   },
   eventDate: '2026-12-12T10:00:00+02:00',
   displayDate: '12 de Dezembro de 2026',
-  invitationMessage: 'Com a bênção de Deus e dos seus pais, Cheila e Sidónio têm a honra de convidá-lo(a) para celebrar o seu casamento. Com imensa alegria, gostariam de partilhar este momento único e inesquecível consigo. A sua presença será uma verdadeira bênção e fará deste dia uma memória ainda mais especial.',
   music: {
     src: weddingMusic,
     autoplayAfterOpening: true,
@@ -52,16 +51,16 @@ export const invitationData = {
     description: 'Um cenário verde e sereno junto ao Índico, escolhido para partilharmos convosco cada instante deste dia.',
   },
   events: [
-    { title: 'Cerimónia Religiosa', time: '10:00', location: 'Paróquia São Pedro e São Paulo', mapsUrl: 'https://maps.app.goo.gl/hYMaHTMVBmyPo2BQ8' },
-    { title: 'Cerimónia Civil & Copo de Água', time: '13:30', location: 'Salão de Eventos Roseiral', mapsUrl: 'https://maps.app.goo.gl/JeX3tZGS9HGw1Rqv8' },
+    { title: 'Cerimónia Religiosa', time: '10:30', location: 'Paróquia São Pedro e São Paulo', mapsUrl: 'https://maps.app.goo.gl/hYMaHTMVBmyPo2BQ8' },
+    { title: 'Cerimónia Civil & Copo de Água', time: '14:00', location: 'Salão de Eventos Roseiral', mapsUrl: 'https://maps.app.goo.gl/JeX3tZGS9HGw1Rqv8' },
   ],
-  programme: [
-    { time: '15h00', title: 'Recepção dos convidados', description: 'Sejam bem-vindos ao início da nossa celebração.' },
-    { time: '16h00', title: 'Cerimónia', description: 'O momento em que dizemos sim para sempre.' },
-    { time: '18h00', title: 'Cocktail & fotografias', description: 'Brindes, abraços e memórias para guardar.' },
-    { time: '19h30', title: 'Jantar', description: 'Uma mesa preparada com carinho para todos.' },
-    { time: '21h30', title: 'Festa', description: 'Música, dança e alegria até ao último instante.' },
-  ],
+  //programme: [
+    //{ time: '15h00', title: 'Recepção dos convidados', description: 'Sejam bem-vindos ao início da nossa celebração.' },
+    //{ time: '16h00', title: 'Cerimónia', description: 'O momento em que dizemos sim para sempre.' },
+    //{ time: '18h00', title: 'Cocktail & fotografias', description: 'Brindes, abraços e memórias para guardar.' },
+    //{ time: '19h30', title: 'Jantar', description: 'Uma mesa preparada com carinho para todos.' },
+    //{ time: '21h30', title: 'Festa', description: 'Música, dança e alegria até ao último instante.' },
+  //],
   dressCode: {
     title: 'Formal & sofisticado',
     description: 'Sugerimos tons naturais e elegantes que complementem o ambiente da nossa celebração.',
@@ -77,6 +76,10 @@ export const invitationData = {
   guestMessage: 'A nossa história torna-se ainda mais especial com a presença das pessoas que amamos. Será uma alegria partilhar este momento consigo.',
   finalMessage: 'Com carinho, aguardamos por si neste dia tão especial.',
   contacts: [
+<<<<<<< HEAD
       { name: 'Dulce', role: 'Organização', phone: '+258 87 970 0463', whatsapp: '258824829016' },
+=======
+    { name: 'Dulce', role: 'Organização', phone: '+258 87 970 0463', whatsapp: '258879700463' },
+>>>>>>> f2d78e8730aecab81e607d26324e9fc08831332b
   ],
 }
