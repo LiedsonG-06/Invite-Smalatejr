@@ -29,7 +29,7 @@ Não coloque credenciais, chaves privadas ou dados bancários secretos no fronte
 ### Google Sheets e RSVP
 
 1. Crie uma planilha e uma folha chamada `RSVP`.
-2. Na primeira linha, crie as colunas: Data e hora, Nome completo, Telefone, Confirmação, Número de acompanhantes, Nomes dos acompanhantes e Mensagem.
+2. Na primeira linha, crie as colunas: Data e hora, Nome completo, Telefone, Confirmação, Número de acompanhantes, Nomes dos acompanhantes e Mensagem. O formulário recolhe nome, telefone, confirmação Sim/Não e uma mensagem opcional; as colunas de acompanhantes ficam vazias.
 3. Em Extensões > Apps Script, copie `docs/google-apps-script.js` e substitua `SPREADSHEET_ID` pelo ID da planilha.
 4. Em Implementar > Nova implementação, escolha Aplicação Web, execute como proprietário e defina quem pode aceder conforme o público do convite.
 5. Autorize o script, copie o URL terminado em `/exec` e coloque-o em `VITE_RSVP_ENDPOINT`.

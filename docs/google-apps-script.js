@@ -21,8 +21,8 @@ function doPost(e) {
       data.nomeCompleto,
       data.telefone,
       data.confirmacao,
-      Number(data.numeroAcompanhantes) || 0,
-      Array.isArray(data.nomesAcompanhantes) ? data.nomesAcompanhantes.join(', ') : '',
+      0,
+      '',
       data.mensagem || '',
     ])
     return jsonResponse({ success: true })
